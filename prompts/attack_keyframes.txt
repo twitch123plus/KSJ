@@ -1,0 +1,16 @@
+Create ATTACK keyframes for the canonical character.
+
+Constraints:
+- pixel art
+- same scale
+- same camera angle
+- same identity
+- transparent background preferred
+- no text, labels, UI, grid, or borders
+- effects must remain small and attached to the action
+
+Keyframes:
+1. anticipation
+2. wind-up peak
+3. impact
+4. recovery
