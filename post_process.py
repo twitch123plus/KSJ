@@ -396,13 +396,25 @@ if __name__ == "__main__":
     parser.add_argument("output_dir", type=Path)
     parser.add_argument("--background-mode", choices=["rgba", "green", "black"], default="rgba")
     parser.add_argument("--frame-count", type=int, default=8)
-    parser.add_argument("--gif", action="store_true")
+    parser.add_argument(
+        "--gif",
+        dest="export_gif",
+        action="store_true",
+        default=True,
+        help="export preview GIFs, enabled by default",
+    )
+    parser.add_argument(
+        "--no-gif",
+        dest="export_gif",
+        action="store_false",
+        help="skip preview GIF export",
+    )
     args = parser.parse_args()
 
     config = ProcessConfig(
         frame_count=args.frame_count,
         background_mode=args.background_mode,
-        export_gif=args.gif,
+        export_gif=args.export_gif,
     )
     result = process_action(args.input_dir, args.output_dir, args.action, config)
     print(json.dumps(asdict(result), ensure_ascii=False, indent=2))
