@@ -1,0 +1,11 @@
+Create a single canonical base character reference.
+
+Requirements:
+- full body only
+- same identity for all later animation frames
+- side view facing right unless otherwise specified
+- clean pixel art
+- sharp edges
+- no text, labels, UI, grid, borders, or showcase layout
+- transparent background preferred
+- compact silhouette with large empty margin around the character
