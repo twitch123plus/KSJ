@@ -1,0 +1,15 @@
+Create RUN keyframes for the canonical character.
+
+Constraints:
+- pixel art
+- same scale
+- same camera angle
+- same identity
+- transparent background preferred
+- no text, labels, UI, grid, or borders
+
+Keyframes:
+1. contact
+2. passing
+3. opposite contact
+4. opposite passing
