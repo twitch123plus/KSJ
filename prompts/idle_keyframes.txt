@@ -1,0 +1,15 @@
+Create IDLE keyframes for the canonical character.
+
+Constraints:
+- pixel art
+- same scale
+- same camera angle
+- same identity
+- transparent background preferred
+- no text, labels, UI, grid, or borders
+
+Keyframes:
+1. ready idle
+2. bob down
+3. bob up
+4. blink or subtle twitch
