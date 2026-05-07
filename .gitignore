@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.python-version
+
+# Build / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated sprite outputs
+output/
+outputs/
+*.gif
+*_sheet_aligned.png
+*_sheet_original.png
+alignment_log.txt
+metadata.json
+validation_report.json
+contact_sheet_aligned.png
+
+# Optional local assets / experiments
+assets/tmp/
+debug_masks/
+logs/
