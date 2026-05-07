@@ -1,0 +1,16 @@
+Create HURT keyframes for the canonical character.
+
+Constraints:
+- pixel art
+- same scale
+- same camera angle
+- same identity
+- transparent background preferred
+- no text, labels, UI, grid, or borders
+- effects must remain small and close to the body
+
+Keyframes:
+1. ready
+2. hit reaction
+3. recoil peak or stunned pose
+4. recovery
