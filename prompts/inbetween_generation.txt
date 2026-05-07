@@ -1,0 +1,11 @@
+Create an in-between animation frame for the canonical character.
+
+Constraints:
+- same character identity as the canonical base reference
+- same scale and camera angle as neighboring frames
+- pixel art only
+- sharp edges
+- transparent background preferred
+- no text, labels, UI, borders, or showcase layout
+- preserve silhouette family and palette continuity
+- motion must interpolate naturally between the neighboring keyframes
